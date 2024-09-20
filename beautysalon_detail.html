@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美容室詳細PC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-wrap">
+            <h1 class="logo"><img src="images/logo.png" alt=""></h1>
+            <nav class="pc-nav">
+                <ul>
+                    <li><a href="">about</a></li>
+                    <li><a href="">service</a></li>
+                    <li><a href="">work</a></li>
+                    <li><a href="">contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="humberger"><span></span></div>
+            <nav class="sp-nav">
+                <ul>
+                    <li><a href="">about</a></li>
+                    <li><a href="">service</a></li>
+                    <li><a href="">work</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container">
+    <section class="work_detail1">
+       
+            <h2><img src="images/beauty_salon.png" alt=""></h2>
+            <div class="button_view"><p>view all</p></div>  
+            <div class="button_wrap">
+                <div class="sp_button">
+                    <p>PC版</p>
+                </div>     
+                <div class="sp_button">
+                    <p>スマホ版</p>
+                </div>     
+            </div>        
+
+            <div class="work_detail1_title">
+                <h3>美容室『Life hair design』</h3>
+                <p>LP型コーポレートサイト</p>
+            </div>
+
+            <div class="work_detail1_wrap">
+                <ul>
+                    <li>概要</li>
+                    <li>開業１０周年を迎えるwebサイトをリニューアル。２０〜５０代の女性をメインターゲットとし、認知向上と予約獲得が主な目的となります。</li>
+                 </ul>
+        
+                <ul>
+                    <li>担当範囲</li>
+                    <li>ワイヤーフレーム/デザイン/素材集め</li>
+                 </ul>
+        
+                <ul>
+                    <li>制作期間</li>
+                    <li>１０日</li>
+                 </ul>
+        
+                <ul>
+                    <li>制作ツール</li>
+                    <li>Illustrator/Photoshop</li>
+                 </ul>
+        
+
+
+            </div>
+
+            <div class="button_buck">
+                <p>戻る</p>
+            </div>
+    </section>
+    
+    <footer class="footer footer_sp">
+        <p>cooktail design since 2024</p>
+
+    </footer>
+</div>
+<script>
+    $(function() {
+     $(".humberger").on("click", function () {
+      $(".sp-nav").fadeToggle();
+     $(".humberger").toggleClass("open");
+         });
+             });
+</script>
+</body>
+</html>
